@@ -14,3 +14,10 @@ title: My News Portal
     </div>
   </article>
 {% endfor %}
+---
+<hr>
+<div style="text-align: center; font-size: 0.9em; color: #555;">
+  <a href="/privacy-policy.html">Privacy Policy</a> | 
+  <a href="/terms-of-service.html">Terms of Service</a> | 
+  <a href="/contact.html">Contact Us</a>
+</div>
