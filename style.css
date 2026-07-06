@@ -82,3 +82,13 @@ header {
     border-left: 1px solid #eee;
     padding-left: 30px;
 }
+
+.full-width-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-content {
+    width: 100%;
+}
