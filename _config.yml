@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
-title: My Daily News
-description: Fresh news and updates
-lang: en-US
+title: Your Global News Portal
+description: Latest news from around the world.
+theme: jekyll-theme-minimal
+show_downloads: false
