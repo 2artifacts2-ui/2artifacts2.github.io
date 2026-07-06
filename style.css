@@ -92,3 +92,9 @@ header {
 .main-content {
     width: 100%;
 }
+
+.source-link {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #555;
+}
