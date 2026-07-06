@@ -26,12 +26,12 @@ header {
     margin: 20px 0;
 }
 
-.nav-menu {
+.main-menu {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.nav-menu a {
+.main-menu a {
     text-decoration: none;
     color: #333;
     font-family: sans-serif;
@@ -48,16 +48,20 @@ header {
     margin-bottom: 20px;
 }
 
-.grid-container {
+.grid-wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     gap: 50px;
+    margin-bottom: 40px;
 }
 
-.lead-story h2 {
-    font-size: 2.2rem;
-    line-height: 1.1;
-    margin-bottom: 15px;
+.main-content {
+    width: 100%;
+}
+
+.sidebar {
+    border-left: 1px solid #eee;
+    padding-left: 30px;
 }
 
 .category {
@@ -76,21 +80,6 @@ header {
     border-top: 1px solid #ccc;
     padding-top: 10px;
     margin-bottom: 20px;
-}
-
-.sidebar {
-    border-left: 1px solid #eee;
-    padding-left: 30px;
-}
-
-.full-width-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.main-content {
-    width: 100%;
 }
 
 .source-link {
