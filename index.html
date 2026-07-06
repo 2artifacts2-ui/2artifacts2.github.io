@@ -84,6 +84,13 @@
         </nav>
     </footer>
     
-    </div>
+    </div> <!-- .container -->
+
+    <script>
+        const dateElement = document.getElementById('current-date');
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const today = new Date().toLocaleDateString('en-US', options);
+        dateElement.innerText = today;
+    </script>
 </body>
 </html>
