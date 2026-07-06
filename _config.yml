@@ -1,4 +1,5 @@
-title: Your Global News Portal
-description: Latest news from around the world.
-theme: jekyll-theme-minimal
+title: Global News Portal
+description: Your source for breaking news and analysis.
+theme: jekyll-theme-modern
 show_downloads: false
+google_analytics: null
