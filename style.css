@@ -117,3 +117,18 @@ footer a {
     margin: 0 10px;
     text-transform: uppercase;
 }
+
+header {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 2px;
+    background-color: #000;
+}
