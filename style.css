@@ -137,3 +137,19 @@ header::after {
 body {
     overflow-x: hidden;
 }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .sidebar {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .site-title {
+        font-size: 2rem;
+    }
+}
