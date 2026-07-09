@@ -124,3 +124,21 @@ footer a {
     .site-title {
         font-size: 2rem;
     }
+}
+
+.news-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+    margin: 20px 0;
+    border-radius: 4px;
+    background-color: #eee;
+    min-width: 0;
+    max-width: 100%;
+}
+
+.news-image:not([src]) {
+    display: none;
+}
